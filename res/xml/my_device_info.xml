@@ -157,13 +157,20 @@
         android:order="42"
         android:title="@string/fcc_equipment_id"
         android:summary="@string/summary_placeholder"/>
-
+        
+    <!-- Build date -->
+    <Preference
+        android:key="build_date"
+        android:order="43"
+        android:title="@string/build_date"
+        android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="true" />
+    
     <!-- Build number -->
     <Preference
         android:key="build_number"
-        android:order="43"
+        android:order="44"
         android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"/>
+        android:summary="@string/summary_placeholder" />
 
 </PreferenceScreen>
